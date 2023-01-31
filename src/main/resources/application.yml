@@ -1,0 +1,15 @@
+# PowerMeterAgent configuration file
+mqttConfig:
+  url: tcp://localhost:1883
+  userName: johndoe
+  password: secret
+  caFilePath: /etc/pki/ca-trust/extracted/pem/tls-ca-bundle.pem
+  crtFilePath: null
+  clientKeyFilePath: null
+
+databaseConfig:
+  driver: com.mysql.jdbc.Driver
+  url: jdbc:mysql://localhost:3306/domotics
+  userName: testuser
+  password: p@ssW0rd
+    
